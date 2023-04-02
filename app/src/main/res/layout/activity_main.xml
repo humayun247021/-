@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background_color"
+    android:padding="20dp"
+    >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:text="ইসলামিক কবিতা "
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="#2196F3"
+        android:background="@drawable/background_3"
+        android:layout_centerHorizontal="true"
+
+
+        />
+
+</RelativeLayout>
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:visibility="gone"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            >
+
+            <TextView
+                android:id="@+id/tvdisplay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:text="copy"
+        android:textSize="35sp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/next"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="25dp"
+        />
+
+    <ImageView
+
+        android:id="@+id/copy"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/copy"
+        android:layout_marginLeft="170dp"
+        />
+
+</RelativeLayout>
+
+
+
+    <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+            >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    >
+
+
+                    <TextView
+
+                        android:id="@+id/text1"
+                        android:layout_width="450dp"
+                        android:layout_height="70dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/background_2"
+                        android:gravity="center"
+                        android:text="আরশের অধীপতি"
+                        android:textSize="35sp"
+                        android:textStyle="bold"
+                        android:layout_centerHorizontal="true"
+                        />
+
+                    <TextView
+
+                        android:id="@+id/text2"
+                        android:layout_width="450dp"
+                        android:layout_height="70dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/background_2"
+                        android:gravity="center"
+                        android:text="অন্ধকার হেরা"
+                        android:textSize="35sp"
+                        android:textStyle="bold"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/text1"
+                        />
+
+                    <TextView
+
+                        android:id="@+id/text3"
+                        android:layout_width="450dp"
+                        android:layout_height="70dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/background_2"
+                        android:gravity="center"
+                        android:text=" বদর"
+                        android:textSize="35sp"
+                        android:textStyle="bold"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/text2"
+                        />
+
+                    <TextView
+
+                        android:id="@+id/text4"
+                        android:layout_width="450dp"
+                        android:layout_height="70dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/background_2"
+                        android:gravity="center"
+                        android:text="মানবতার সংবিধান"
+                        android:textSize="35sp"
+                        android:textStyle="bold"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/text3"
+                        />
+
+
+                    <TextView
+
+                        android:id="@+id/text5"
+                        android:layout_width="450dp"
+                        android:layout_height="70dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/background_2"
+                        android:gravity="center"
+                        android:text="অঙ্গতার অন্ধকার"
+                        android:textSize="35sp"
+                        android:textStyle="bold"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/text4"
+                        />
+                    <TextView
+
+                        android:id="@+id/text6"
+                        android:layout_width="450dp"
+                        android:layout_height="70dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/background_2"
+                        android:gravity="center"
+                        android:text="অর্থ বিলাস"
+                        android:textSize="35sp"
+                        android:textStyle="bold"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/text5"
+                        />
+
+                    <TextView
+
+                        android:id="@+id/text7"
+                        android:layout_width="450dp"
+                        android:layout_height="70dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/background_2"
+                        android:gravity="center"
+                        android:text="আখিরাত"
+                        android:textSize="35sp"
+                        android:textStyle="bold"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/text6"
+                        />
+
+
+
+
+
+                </RelativeLayout>
+
+
+
+
+
+
+            </ScrollView>
+
+
+
+
+
+
+
+
+</LinearLayout>
